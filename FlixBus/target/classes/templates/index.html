@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>HOME</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                max-width: 1500px;
+                
+                display: flex;
+                justify-content: space-between;
+                white-space: pre-line;
+            }
+            .content,.content-reversed{
+                width: 45%;
+            }
+
+            img{
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+            p{
+                font-size: 1.2em;
+                color: green;
+                margin-top: 20px;
+            }
+            h1{
+                color: green;
+                margin-top: 20px;
+            }
+            .custom-navbar{
+                background-color: green;
+                color: green;
+            }
+            #btnLogin{
+                background-color: white;
+                color: green;
+                margin-right: 4px;
+            }
+            #btnLogout{
+                background-color: white;
+                color: green;
+                margin-right: 4px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+             <nav
+                class="navbar navbar-expand-sm navbar-dark custom-navbar"
+             >
+                <a class="navbar-brand" href="#"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZqdzVjazJ5bWNiOWEzMjF0ZGIwMndzOHJpdXQyNG4wdm94aHJheSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/INUZdSHtQcFTnHPT98/giphy.webp" alt=""  width="100px"></a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                ></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/" aria-current="page"
+                                >HOME <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="viaggi">Vedi i nostri viaggi</a>
+                        </li>
+                        <li class="nav-item dropdown" >
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >Modifica sito</a
+                            >
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#" id="linkAddViaggio">Add viaggio</a>
+                                <a class="dropdown-item" href="#" id="linkRegistraDipendente">Regitra dipendente</a>
+                                <a class="dropdown-item" href="#" id="linkPrenotazioni">Prenotazioni</a>
+                                <a class="dropdown-item" href="#" id="linkUtenti">Utenti</a>
+                                <a class="dropdown-item" href="#" id="linkDipendenti">Dipendenti</a>
+                            </div>
+                        </li> 
+                    </ul>
+                    <div id="bottone"></div>
+                    <!-- <button id="btnLogin" class="btn">Login</button> -->
+                </div>
+             </nav>
+             
+        </header>
+        <main></main>
+        <footer>
+            <!-- place footer here -->
+           
+
+             <h1>Homepage della Biglietteria Online FlixBus</h1>
+             <div class="container">
+                <div class="content">
+                        <img src="https://cdn-cf.cms.flixbus.com/drupal-assets/2021-10/mobile-flix-hero-q4-2021.jpg" alt="" id="img1">
+                          <p>  Cosa offriamo:
+                             - Prenotazioni Facili: Prenota i tuoi biglietti in pochi semplici passaggi
+                             - Ampia Scelta di Destinazioni: Viaggia verso molte città in tutta Europa
+                             - Tariffe Convenienti: Offerte speciali e tariffe competitive per risparmiare
+                             - Comfort e Sicurezza: Viaggia comodamente e in sicurezza con FlixBus
+                            </p>
+                    </div>
+                     <div class="content-reversed">
+                         
+                       
+                            <p>Benvenuto alla Biglietteria Online FlixBus, il modo più conveniente per viaggiare in autobus in tutta Europa!</p>
+                            <img src="https://images.ctfassets.net/1nvpgv2kdfc0/4g40bkz6rLHMzpbz6s3PVM/3fa1a0a2d2b018efc17958309f6cc0bb/flixbus-bus-interior.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="container">
+                    <div class="content">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/22/b7/c4/flixbus-in-berlin-germany.jpg?w=1200&h=-1&s=1" alt="">
+                        <p>
+                            Come Prenotare:
+                            1 Seleziona la tua origine e destinazione
+                            2 Scegli le date del viaggio
+                            3 Seleziona i passeggeri
+                            4 Trova le migliori offerte e prenota i tuoi biglietti
+                            Inizia subito a pianificare il tuo prossimo viaggio con FlixBus e vivi un'esperienza di viaggio indimenticabile!
+                        </p> 
+                    </div>
+                    <div class="content-reversed">
+                        <p>     
+                            Perché scegliere FlixBus:
+                            - Rete di Collegamenti: Collegamenti tra città e paesi in tutta Europa
+                            - Autobus Moderni: Viaggia con comfort su autobus moderni e dotati
+                            - Applicazione Facile da Usare: Prenota e gestisci i tuoi viaggi con facilità tramite l'app FlixBus
+                        </p>
+                        <img src="https://tellusdmsmedia.newmindmedia.com/wsimgs/Flixbus_1866170367.jpg[ProductImage]" alt="">
+                    </div>
+                    </div>
+                        
+                     
+                    </footer>
+                    <!-- Bootstrap JavaScript Libraries -->
+                    <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            //let btnLogin = document.querySelector("#btnLogin");
+            // btnLogin.addEventListener("click", function(){
+            //     window.location.href="login";
+            // })
+            let bottone = document.querySelector("#bottone");
+            if(this.localStorage.length != 0 && this.localStorage.key(0) == "userConnesso" || this.localStorage.key(0) == "dipendenteConnesso"){
+                let buttonLogout = document.createElement("button");
+                buttonLogout.setAttribute("id","btnLogout");
+                buttonLogout.setAttribute("class","btn");
+                buttonLogout.innerHTML = "Logout";
+                buttonLogout.addEventListener("click", function(){
+                    localStorage.removeItem("userConnesso");
+                    location.reload();
+                    localStorage.removeItem("dipendenteConnesso");
+                    location.reload();
+                })
+                bottone.appendChild(buttonLogout)
+              
+            }else{
+            	
+            	  let buttonLogin=document.createElement("button");
+                  buttonLogin.setAttribute("id","btnLogin");
+                  buttonLogin.setAttribute("class","btn");
+                  buttonLogin.innerHTML="Login";
+                  buttonLogin.addEventListener("click", function(){
+                      window.location.href="login";
+                  })
+
+                  bottone.appendChild(buttonLogin)
+            }
+
+            if(this.localStorage.length != 0 && this.localStorage.key(0) == "dipendenteConnesso"){
+
+
+// <a class="dropdown-item" href="#" id="linkAddViaggio"></a>
+//<a class="dropdown-item" href="#" id="linkRegistraDipendente"></a>
+
+
+                  let dropdownId = document.querySelector("#dropdownId");
+                  let linkAddViaggio = document.querySelector("#linkAddViaggio");
+                  let linkRegistraDipendente = document.querySelector("#linkRegistraDipendente");
+                  let linkPrenotazioni = document.querySelector("#linkPrenotazioni");
+                  let linkUtenti = document.querySelector("#linkUtenti");
+                  let linkDipendenti = document.querySelector("#linkDipendenti");
+
+                  linkAddViaggio.setAttribute("href","addViaggio");
+                  linkRegistraDipendente.setAttribute("href","registrazioneDipendente");
+                  linkPrenotazioni.setAttribute("href","prenotazioni");
+                  linkUtenti.setAttribute("href","utenti");
+                  linkDipendenti.setAttribute("href","dipendenti");
+            }
+        </script>
+    </body>
+</html>
