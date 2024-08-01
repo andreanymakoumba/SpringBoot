@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>HOME</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color:aquamarine;
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                max-width: 1500px;
+                
+                display: flex;
+                justify-content: space-between;
+                white-space: pre-line;
+            }
+            .content,.content-reversed{
+                width: 45%;
+            }
+
+            img{
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+            p{
+                font-size: 1.2em;
+                color: black;
+                margin-top: 20px;
+            }
+            h1{
+                color: black;
+                margin-top: 20px;
+            }
+            .custom-navbar{
+                background-color: black;
+                color: red;
+            }
+            #btnLogin{
+                background-color: red;
+                color: black;
+                margin-right: 4px;
+            }
+            #btnLogout{
+                background-color: red;
+                color: black;
+                margin-right: 4px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+             <nav
+                class="navbar navbar-expand-sm navbar-dark custom-navbar"
+             >
+                <a class="navbar-brand" href="#"><img src="https://media.istockphoto.com/id/1295114854/it/foto/poltrone-rosse-vuote-di-un-teatro-pronte-per-uno-spettacolo.jpg?s=612x612&w=is&k=20&c=4osRSd6Je2FoxWYNV260QZ3reyOJrb_bWbhsjhr3K_o=" alt=""  width="100px"></a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                ></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/" aria-current="page"
+                                >HOME <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./spetacoli.html" id="spetacoli">I nostri Spetacoli</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./teatri.html" id="teatro">Teatri</a>
+                        </li>
+                        <li class="nav-item dropdown" >
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >Altro</a
+                            >
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#" id="linkPrenotazioni">Prenotazioni</a>
+                            </div>
+                        </li> 
+                    </ul>
+                    <div id="bottone"></div>
+                    <!-- <button id="btnLogin" class="btn">Login</button> -->
+                </div>
+             </nav>
+             
+        </header>
+        <main></main>
+        <footer>
+            <!-- place footer here -->
+           
+
+             <h1>Homepage della Biglietteria Online del Teatro Best</h1>
+             <div class="container">
+                <div class="content">
+                        <img src="https://media.istockphoto.com/id/476806559/it/foto/pubblico-applaudire-ballerine-sul-palco-in-teatro.jpg?s=612x612&w=is&k=20&c=Yar3FlV_3rg_x3512OtTev1F38T9V7N1rkzghaPE7bI=" alt="" id="img1">
+                          <p>  Cosa offriamo:
+                             - Prenotazioni Facili: Prenota i tuoi biglietti in pochi semplici passaggi
+                             - Ampia Scelta di Spetacoli
+                             - Tariffe Convenienti: Offerte speciali e tariffe competitive per risparmiare
+                             - Comfort e Sicurezza
+                            </p>
+                    </div>
+                     <div class="content-reversed">
+                         
+                       
+                            <p>Benvenuto nella Biglietteria Online Del Teatro Best</p>
+                            <img src="https://media.istockphoto.com/id/476806603/it/foto/artista-in-piedi-con-le-braccia-tese-in-fase-di-teatro.jpg?s=612x612&w=is&k=20&c=_QeBHXPdEURmk7lFQOtauPvXHUP1QJNUpr72TlhcaX4=" alt="">
+                        </div>
+                    </div>
+                    <div class="container">
+                    <div class="content">
+                        <img src="https://media.istockphoto.com/id/182735061/it/foto/teatro-classico.jpg?s=612x612&w=is&k=20&c=rDHl4OGtk0KDJrg02zKNAD6_CUO_A_iT9bztxAVo71M=" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quod exercitationem velit delectus? Recusandae veniam libero quia, ipsum quibusdam expedita pariatur dolor adipisci illum cumque vitae,
+                            tenetur rerum voluptatem, dicta quasi!
+                        </p> 
+                    </div>
+                    <div class="content-reversed">
+                        <p>     
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Officia impedit nam officiis reiciendis, ratione dolorum tenetur laudantium
+                             ipsam libero deserunt voluptatem quia consectetur ut veritatis maxime quo veniam? Quas, ab?
+                        </p>
+                        <img src="https://media.istockphoto.com/id/957023808/it/foto/persone-in-un-teatro-che-guardano-una-prova-generale-delle-arti-dello-spettacolo-di-balletto.jpg?s=612x612&w=is&k=20&c=H9B7o43zm1XYLHUE8UI-ld3nznwEBFIn6H0PNiz4eHA=" alt="">
+                    </div>
+                    </div>
+                        
+                     
+                    </footer>
+                    <!-- Bootstrap JavaScript Libraries -->
+                    <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+           
+            let bottone = document.querySelector("#bottone");
+            if(this.localStorage.length != 0 && this.localStorage.key(0) == "userConnesso" || this.localStorage.key(0) == "dipendenteConnesso"){
+                let buttonLogout = document.createElement("button");
+                buttonLogout.setAttribute("id","btnLogout");
+                buttonLogout.setAttribute("class","btn");
+                buttonLogout.innerHTML = "Logout";
+                buttonLogout.addEventListener("click", function(){
+                    localStorage.removeItem("userConnesso");
+                    location.reload();
+                    localStorage.removeItem("dipendenteConnesso");
+                    location.reload();
+                })
+                bottone.appendChild(buttonLogout)
+              
+            }else{
+            	
+            	  let buttonLogin=document.createElement("button");
+                  buttonLogin.setAttribute("id","btnLogin");
+                  buttonLogin.setAttribute("class","btn");
+                  buttonLogin.innerHTML="Login";
+                  buttonLogin.addEventListener("click", function(){
+                      window.location.href="./login.html";
+                  })
+
+                  bottone.appendChild(buttonLogin)
+            }
+
+            if(this.localStorage.length != 0 && this.localStorage.key(0) == "dipendenteConnesso"){
+
+                  let dropdownId = document.querySelector("#dropdownId");
+                  let linkPrenotazioni = document.querySelector("#linkPrenotazioni");
+                  linkPrenotazioni.setAttribute("href","prenotazioni");
+            }
+        </script>
+    </body>
+</html>
